@@ -62,6 +62,7 @@ python scripts/train.py --stage emotional_finetune
   - OEvortex/HelpingAI2.5-English-openemotions
   - OEvortex/HelpingAI2.5-hinglish-openemotions
   - Custom self-cognition dataset
+  - Some private datasets
 
 ## 📂 Project Structure
 
@@ -147,7 +148,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Abhay Koul**
-- Age: 17
+- Age: 
 - Project: HelpingAI
 - Focus: Emotional Intelligence in AI
 
