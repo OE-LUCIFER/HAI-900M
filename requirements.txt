@@ -1,0 +1,21 @@
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2.0,<=2.4.1
+numpy<2.0
+
+tqdm
+datasets
+jinja2
+transformers
+wandb
+# litgpt[all]
+litgpt[all] @ git+https://github.com/Lightning-AI/litgpt.git
+# litgpt @ git+https://github.com/Lightning-AI/litgpt.git
+# litdata
+# litdata @ git+https://github.com/Lightning-AI/litdata.git
+grokadamw
+# bitsandbytes
+# pyzstd
+# zstd
+Pillow
+
+sophia-opt
