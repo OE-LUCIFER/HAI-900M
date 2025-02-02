@@ -4,7 +4,7 @@
 
 ## 🌟 Overview
 
-HAI is an advanced language model training pipeline designed to create emotionally intelligent AI that can communicate naturally with Gen Z users. Created by Abhay Koul (17-year-old developer), this project combines state-of-the-art language model architecture with specialized emotional intelligence training.
+HAI is an advanced language model training pipeline designed to create emotionally intelligent AI that can communicate naturally with Gen Z users. Created by Abhay Koul (18-year-old developer), this project combines state-of-the-art language model architecture with specialized emotional intelligence training.
 
 ### 🎯 Key Features
 
@@ -41,7 +41,6 @@ python scripts/train.py --stage emotional_finetune
 ## 🛠️ Technical Architecture
 
 ### Model Specifications
-- Base Model: HAI-3.2B
 - Tokenizer: BPE (Byte-Pair Encoding)
 - Vocabulary Size: 32,768 tokens
 - Training Stages:
@@ -55,7 +54,8 @@ python scripts/train.py --stage emotional_finetune
   - JeanKaddour/minipile
   - OEvortex/EmotionalIntelligence-75k
   - OEvortex/Med-emo
-
+  - Some private datasets
+  - 
 - **Emotional Fine-tuning**:
   - OEvortex/EmotionalIntelligence-75k
   - OEvortex/Med-emo
@@ -72,17 +72,11 @@ emotional_llm/
 │   ├── pretrain-model.yaml
 │   └── contrain-model.yaml
 ├── scripts/                 # Training and dataset preparation scripts
-│   ├── train.py            # Main training pipeline
-│   ├── prepare_pretrain_dataset.py
-│   ├── prepare_contrain_dataset.py
-│   └── cognition_dataset.py
-├── data/                    # Dataset storage
-│   ├── tokenizer/          # Tokenizer files
-│   ├── pretrain/           # Pretraining data
-│   └── emotional/          # Emotional fine-tuning data
-└── output/                  # Training outputs
-    ├── checkpoints/        # Model checkpoints
-    └── logs/               # Training logs
+  ├── train.py            # Main training pipeline
+  ├── prepare_pretrain_dataset.py
+  ├── prepare_contrain_dataset.py
+  └── cognition_dataset.py
+
 ```
 
 ## ⚙️ Configuration
@@ -148,7 +142,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Abhay Koul**
-- Age: 
+- Age: 18
 - Project: HelpingAI
 - Focus: Emotional Intelligence in AI
 
